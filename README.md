@@ -72,10 +72,11 @@ This guide will help you set up Oracle Database using Docker.
     ```
 
 ### 7. **Create new user**
+- Create a new user:
 
     ```sql
-        ALTER SESSION SET CONTAINER=FREEPDB1;
-        CREATE USER remmani IDENTIFIED BY 123456;
+    ALTER SESSION SET CONTAINER=FREEPDB1;
+    CREATE USER remmani IDENTIFIED BY 123456;
     ```
 
 ---
