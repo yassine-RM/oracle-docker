@@ -71,6 +71,13 @@ This guide will help you set up Oracle Database using Docker.
     SELECT * FROM test_table;
     ```
 
+### 7. **Create new user**
+
+    ```sql
+        ALTER SESSION SET CONTAINER=FREEPDB1;
+        CREATE USER remmani IDENTIFIED BY 123456;
+    ```
+
 ---
 
 By following these steps, you will have Oracle Database running in a Docker container on your system.
